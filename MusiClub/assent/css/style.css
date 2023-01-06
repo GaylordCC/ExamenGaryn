@@ -1,0 +1,148 @@
+.Wrapper {
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+}
+
+.sideWrapper {
+    border: 1px solid rgb(46, 11, 201);
+    width: 200px;
+    height: 819px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainWrapper {
+    border: 1px solid rgb(2, 45, 2);
+    width: 1450px;
+    height: 819px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topBar {
+    border: 1px solid rgb(104, 6, 66);
+    width: 100%;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bodyContein {
+    border: 1px solid rgb(17, 146, 193);
+    width: 100%;
+    height: 752px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* topBar */
+
+.search {
+    border: 1px solid rgb(109, 10, 96);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 100px;
+    height: 50px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.inputSearch {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 350px;
+    height: 25px;
+    text-align: center;
+}
+.imagenSearch {
+    margin-left: 10px;
+    margin-top: 8px;
+    height: 30px;
+    width: 30px;
+}
+
+.imagemTV {
+    margin-left: 40px;
+}
+
+.imagemRadio {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.imagemBell {
+    margin-left: 100px;
+}
+
+
+.icon-musiclub {
+    border: 1px solid rgb(111, 135, 7);
+    width: 100%;
+    height: 67px;
+    display: flex;
+    flex-direction: column;
+}
+
+.LogoMC {
+    margin-top: 0;
+    margin: auto;
+    display: flex;
+}
+
+.ItensList {
+    border: 1px solid rgb(107, 5, 63);
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 740px;
+}
+
+.itenL {
+    list-style-type: none;
+}
+
+.list {
+    margin-bottom: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #0F1E36;
+    opacity: 0.5;
+}
+
+.imagenes {
+    margin-right: 18px;
+}
+
+.imagenesPlus {
+    margin-left: 18px;
+}
+
+.profile {
+    border: 1px solid rgb(8, 181, 34);
+    width: 440px;
+    height: 67px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+
+}
+
+.profName {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    margin-top: -40px;
+}
+
+.namepremium {
+    margin-left: 10px;;
+}
